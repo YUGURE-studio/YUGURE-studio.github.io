@@ -4,9 +4,10 @@ GitHub Pages 用の静的サイトです。リポジトリ名を `YUGURE-studio.
 
 公開前に確認すること:
 
-- `contact/index.html`: 問い合わせ先を確定して掲載する。
-- `apps/otta/privacy/index.html`: 実装に合わせて取得・共有・保存・削除・外部送信・バックグラウンド位置情報等を具体的に記載する。
-- `apps/otta/terms/index.html`: 提供条件と正式な規約を確定する。
-- `apps/otta/index.html`: 対応OS、機能、提供状況が確定したら更新する。
+- `contact/index.html`: 公開用メールアドレスへの受信を確認する。
+- `apps/otta/privacy/index.html`: 実装・Google Play のデータ セーフティ申告・アプリ内説明と一致するか最終確認する。
+- `apps/otta/account-deletion/index.html`: アプリの削除依頼コード機能とサーバー側の削除手順を検証してから公開する。
+- `apps/otta/terms/index.html`: アプリ内規約との整合と提供条件を最終確認する。
+- `apps/otta/index.html`: 提供状況が確定したら更新する。
 
-現在の法務ページは開発中の案内で、正式なアプリ提供に必要なポリシー・規約の代わりにはなりません。
+アプリの配布開始前に、削除依頼コードの発行・メール受付・サーバー側削除手順を実機で確認してください。
